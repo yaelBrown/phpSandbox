@@ -1,0 +1,66 @@
+PHP - https://www.php.net/manual/en/langref.php
+
+php -S localhost:4000 - starts php
+  Have to be in the directory with your files
+
+<? [php code] ?> - php tag
+
+; - Need semi-colons after every php command (not codeblock)
+
+Very tightly coupled with html
+
+Php datatypes -
+  String
+  Integer
+  Float (floating point numbers - also called double)
+  Boolean
+  Array
+  Object
+  NULL
+  Resource
+
+Math operations - similar python without having to call the Math library.
+
+Associative Array
+  $arr = array("one" => 1, "two" => 2, "three" => 3)
+  echo $arr["two"]
+
+  Key/Value array. 
+  Keys need to be unique
+
+Very similar to javascript
+
+Including html - used for creating header and footer
+  <? include "filename.php/filename.html" ?>
+
+Classes are created javascript style
+
+
+
+
+
+
+
+
+
+
+
+From brew: 
+  ==> php
+  To enable PHP in Apache add the following to httpd.conf and restart Apache:
+      LoadModule php_module /usr/local/opt/php/lib/httpd/modules/libphp.so
+
+      <FilesMatch \.php$>
+          SetHandler application/x-httpd-php
+      </FilesMatch>
+
+  Finally, check DirectoryIndex includes index.php
+      DirectoryIndex index.php index.html
+
+  The php.ini and php-fpm.ini file can be found in:
+      /usr/local/etc/php/8.0/
+
+  To have launchd start php now and restart at login:
+    brew services start php
+  Or, if you don't want/need a background service you can just run:
+    php-fpm

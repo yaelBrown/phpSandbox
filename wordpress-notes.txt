@@ -1,0 +1,37 @@
+Workpress - https://developer.wordpress.org/ - docs
+
+Logomakr - https://logomakr.com/ - Site to create logos
+Royalty free images - 
+  pexels 
+  unsplash
+
+Need domain/hosting
+  Hostinger - free domain/ssl/99% uptime
+
+  domain from different domain company and using different host
+    add Name Servers to domain's name servers
+  
+  With hostinger, can host multiple web pages on one host
+    Usually has auto installer 
+    Woocommerce for - ecommerce
+
+
+url/wp-admin  
+  use the login you used when you created the website
+
+  home > update - checks for the latest version of wp
+  users > all users - Can create more users and give roles for the them
+
+  settings > can change the url for 'posts'
+
+  appearance > themees - where you can install and change themes.
+    OceanWP - one of the more popular / very customizable
+
+  plugins > adds features to your website
+    elementor - drag and drop page builder
+    oceanWP - setup wizard
+    all-in-one-wp-migration - allows you to update site/backup website
+
+  pages > used to remove pages (even from the navigation menu)
+
+  settings > reading - Set the main page that people see when they connect
